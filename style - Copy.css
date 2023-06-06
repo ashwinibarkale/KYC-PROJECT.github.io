@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#videoElement,
+#audioElement {
+    margin-top: 20px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button.start {
+    background-color: #4CAF50;
+}
+
+.button.stop {
+    background-color: #f44336;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
